@@ -1,0 +1,54 @@
+/*selector {
+    propiedad: valor;
+    propiedad2: valor;
+
+}
+
+selector: etiqueta   
+          .clase  
+          #id  
+*/
+
+*{
+  margin: 0; /*Margen*/
+  padding: 0;
+}
+
+header {
+    background-color:rgb(59, 90, 246);
+}
+
+h1{
+    /*text-align: center;*/
+    text-decoration: underline;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    color:rgb(59, 90, 246);
+    text-align:justify;
+    margin: 80px 0 80px 0; /*1°margen sup - 2° margen derecho - 3° margen inf - 4° margen izq*/
+}
+
+h2 {
+    text-align: center;
+}
+
+.textoEnriquecido{
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color:rgb(59, 90, 246);   
+}
+
