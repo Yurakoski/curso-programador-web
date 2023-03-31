@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/b6d61d29a3.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Jost:wght@200;300;400&family=Open+Sans:ital,wght@1,500&family=Poppins:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./imagenes/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
     <title>Selección Argentina | Inicio</title>
 </head>
 
 <body>
     <!--Acá va la cabecera-->
-    <header>
-        <img src="./imagenes/logo.jpg" width="100" height="100" alt="logo del escudo de argentina">
+    <header class="cabecera">
+        <img class="logo" src="./imagenes/logo.png" width="100" height="100" alt="logo del escudo de argentina">
         <nav>
-            <ul class="lista">
+            <ul class="listaCabecera">
                 <li>
-                    <a href="#">INICIO</a>
+                    <a href="#"><b>INICIO</b></a>
                 </li>
                 <li>
                     <a href="./paginas/jugadores.html">JUGADORES</a>
@@ -39,9 +40,10 @@
     </header>
 
     <main>
-        <section>
-            <h1>Argentina Campeón 2022</h1>
-            <p> <span class="textoEnriquecido">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Ratione autem amet molestias, ex voluptate
+        <section class="seccionPricipal">
+            <h1>ARGENTINA CAMPEÓN 2022</h1>
+            <p class="textoPrincipal"> <span class="textoEnriquecido">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Ratione
+                autem amet molestias, ex voluptate
                 voluptates deserunt labore accusamus distinctio esse eum ab quisquam suscipit minus aspernatur adipisci
                 a voluptatum aliquid?
                 Nostrum alias vitae facilis quod iste quisquam vel, quas asperiores et iusto ratione autem recusandae
@@ -56,30 +58,43 @@
                 Ullam, dignissimos illo excepturi quidem expedita laboriosam. Ea officia aperiam nobis, nulla non
                 eveniet quam sit architecto deleniti ipsa adipisci tempora assumenda laudantium, deserunt facere labore
                 natus nesciunt quibusdam molestias.</p>
-                <video autoplay controls mute loop>
-                    <source src="../video1.mp4">
-                </video>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/1GjHCMI-6hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section> 
-        
+
+            <div class="centrado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8cNhULQJ64Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
         <section>
-            <h3>Éstos son los campeones</h3>
-            <img src="./imagenes/jugadores-campeones.jpg" class="imagenEquipo">
+            <h3>Quiero ganar la tercera!</h3>
+            <div class="imagenDescripcion">
+                <img src="./imagenes/festejos.jpg" class="imagenEquipo">
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque exercitationem quasi asperiores consequatur itaque dicta consequuntur dolores? Quas ipsam veritatis, vero, quasi exercitationem non impedit minus voluptatum vitae, autem nemo.
+                Vero nulla doloremque sit velit quibusdam debitis quas eos maiores laboriosam sunt molestias itaque qui, sed facere fugiat in hic pariatur? Dolores corrupti et voluptatem excepturi temporibus dolor sequi iusto.
+                Labore, minus ipsam. Cum similique aliquid voluptates ipsam, incidunt non blanditiis, consectetur enim aperiam atque illum voluptas, asperiores deserunt corporis nisi dicta! Explicabo vero voluptate architecto voluptatem. Dolorum, neque quibusdam?</p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <img src="./imagenes/logo.jpg" width="60" height="60" alt="logo del escudo de argentina">
-        <ul class="lista">
-            <a href="https://www.instagram.com/afaseleccion/?hl=es" target="_blank" rel="noopener noreferrer">
-                <li>Instagram</li>
-            </a>
-            <a href="https://www.facebook.com/AFASeleccionArgentina/?locale=es_LA" target="_blank"
-                rel="noopener noreferrer">
-                <li>Facebook</li>
-            </a>
-            <li>113554656885</li>
-            <li>seleccion@gmail.com</li>
+    <footer class="piePagina">
+        <img class="escudoFooter" src="./imagenes/logo.png" width="100" height="100" alt="logo del escudo de argentina">
+        <p class="descripcionFooter">Asociación del Fútbol Argentino. Todos los derechos reservados.</p>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/afaseleccion/?hl=es" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> Instagram
+                </a>
+            </li>      
+            <li>
+                <a href="https://www.facebook.com/AFASeleccionArgentina/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i> Facebook
+                </a>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i> 113554656885
+            </li>
+            <li>
+                <i class="fa-regular fa-envelope" style="color: #ffffff;"></i> seleccion@gmail.com
+            </li>
         </ul>
     </footer>
 

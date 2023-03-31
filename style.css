@@ -15,10 +15,27 @@ selector: etiqueta
     font-family: 'Poppins', sans-serif;
 }
 
+.cabecera{
+    display: flex; /*flex-direction: row;  por default*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaNavegacion{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+
 header {
     background-color:rgb(1, 14, 79);
 }
 
+.logo {
+    height: 120px;
+    width: 120px;
+}
 
 ul {
     list-style: none;
@@ -35,22 +52,34 @@ a:hover{
 
 li {
     color: white;
+    padding: 10px;
 }
 
+.cabecera {
+    display: flex;
+}
 
+.listaCabecera {
+    display: flex;
+    justify-content: space-evenly; /*space-evenly space-around*/
+}
 
+.seccionPricipal{
+    background-image: url(./imagenes/escudo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1 {
-    /*text-align: center;           => Centra el título ppal en el eje x */
-    text-decoration: underline;
-    text-align: center;
-    margin-top: 50px; 
+    text-align: center;           /* => Centra el título ppal en el eje x */
+    padding-top: 50px;
 }
 
-p {
+.textoPrincipal {
     color: black;
     text-align: center;
-    padding: 50px;
+    padding: 50px 150px;
+    font-size: 18px;
     /*
     margin: 50px 100px;              => 1°margen sup e inf - 2° margen derecho e izq
     margin: 50px 100px 100px 80 px;  => 1°margen sup - 2° margen derecho - 3° margen inf - 4° margen izq
@@ -59,6 +88,17 @@ p {
     margin-right: 100px;
     margin-left: 100px;
     */
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.videoPrincipal{
+    width: 50%;
+    text-align: center;
 }
 
 h3 {
@@ -71,16 +111,56 @@ h3 {
     color: red;
 }
 
+.imagenDescripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion{
+    font-size: 14px;
+    padding: 20px;
+}
 
 .imagenEquipo{
     display: block;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 50%;
 }
 
 footer {
-    background-color:rgb(1, 14, 79);   
+    background-color:rgb(1, 14, 79);  
 }
+
+.descripcionFooter{
+    font-size: 12px;
+    color: white;
+    padding: 0;
+}
+
+.piePagina{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.escudoFooter{
+    
+}
+
+.piePagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
 
